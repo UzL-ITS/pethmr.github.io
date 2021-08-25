@@ -1,0 +1,50 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+	<!-- Header -->
+	<header id="header" {% if page.layout=="landing" %} class="alt style2" {% endif %}{% if page.layout=="home" %}
+		class="alt" {% endif %}>
+		<a href="/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+
+	<!-- Menu -->
+	<!--nav id="menu">
+	<ul class="links">
+		<li><a href="/" class='button fit'>Home</a></li>
+		{% assign dirs = '' %}
+		{% for page in site.html_pages %}
+			{% assign dirs = dirs | append: ',' | append: page.dir %}
+		{% endfor %}
+		{% assign dirs_uniq = dirs | split: ',' | uniq %}
+
+		{% for page in site.html_pages | sort {|a,b| a.dir <=> b.dir}  %}
+			{% if page.layout != "landing" and page.nav-menu == true and page.dir == '/' %}
+				<li><a href="{{ page.url }}" class='button fit'>{{ page.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+
+		{% for dir in dirs_uniq %}
+			{% if dir != '' and dir != '/' %}
+				<li><a href="{{ dir }}" class='button fit'>{{ dir | remove: '/' }}</a></li>
+			{% endif %}
+		{% endfor %}
+
+	</ul>
+</nav-->
+
+	<nav id="menu">
+		<div class="inner">
+			<ul class="links">
+				<li><a href="/">Home</a></li>
+				<li><a href="/about.html">Pet-HMR</a></li>
+				<li><a href="/workpackages.html">Roadmap</a></li>
+				<li><a href="/news.html">News</a></li>
+				<li><a href="documents/">Documents</a></li>
+				<li><a href="/partners.html">Partners</a></li>
+				<li><a href="/contact.html">Contact Us</a></li>
+			</ul>
+		</div><a class="close" href="#menu">Close</a>
+	</nav>

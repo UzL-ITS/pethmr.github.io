@@ -1,0 +1,74 @@
+<!-- feels kinda redundant if we have a contact page
+<section id="contact">
+	<div class="inner">
+		<section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+				</div>
+			</section>
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>
+					X41 D-Sec GmbH<br>
+					Dennewartstr. 25-27<br>
+					52068 Aachen<br>
+					Germany
+					</span>
+				</div>
+			</section>
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-git"></span>
+					<h3>Git</h3>
+					To be announced
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
+-->
+
+<footer id="footer">
+	<div class="inner">
+		<!--
+		<ul class="icons">
+			{% for key_value in site.socials %}
+				{% if key_value[1] %}
+					<li>
+						<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
+							<span class="label">{{ key_value[0] }}</span>
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+		-->
+		<ul class="copyright">
+			<li>&copy; 2021 PeT-HMR partners</li>
+			<li>Powered by
+				<a href="https://jekyll.org" target="_blank" target="_blank">Jekyll</a>,
+				<a href="https://github.com/andrewbanchich/forty-jekyll-theme" target="_blank">Forty</a>
+				and <a href="https://www.pexels.com/" target="_blank">Pexels</a>
+			</li>
+		</ul>
+	</div>
+</footer>
+
+</div>
+
+<script src="{{ " assets/js/jquery.min.js" | relative_url }}"></script>
+<script src="{{ " assets/js/jquery.scrolly.min.js" | relative_url }}"></script>
+<script src="{{ " assets/js/jquery.scrollex.min.js" | relative_url }}"></script>
+<script src="{{ " assets/js/skel.min.js" | relative_url }}"></script>
+<script src="{{ " assets/js/util.js" | relative_url }}"></script>
+<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | relative_url }}"></script><![endif]-->
+<script src="{{ " assets/js/main.js" | relative_url }}"></script>

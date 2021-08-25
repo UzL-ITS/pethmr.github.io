@@ -1,0 +1,50 @@
+# 
+# WARNING: This runs as root inside the container, breakout possible etc
+#          Needs hardening!
+#
+# podman build -f _Dockerfile -t hp .
+# podman run -it --name hpbuild --rm -v "$(pwd)":/homepage-redesign:Z localhost/hp /bin/bash
+#	bash ./_generate.sh
+
+FROM ubuntu:20.10
+
+LABEL maintainer="x41"
+
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y locales locales-all
+RUN locale-gen en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV LC_ALL en_US.UTF-8
+
+# TODO: maybe only copy whats required for bundler?
+COPY . /webpage 
+
+# install dependencies
+RUN apt-get update \
+	&& apt-get upgrade -y \
+	&& apt-get install -y --no-install-recommends \
+		imagemagick \
+		libmagickcore-dev \
+		pkg-config \
+		sudo \
+		ruby-bundler \
+		ruby-dev \
+		libssl-dev \
+		build-essential \
+		vim-tiny \
+		libvips42 \
+		libvips-tools \
+		libcurl4 \
+	&& apt-get autoremove \
+	&& apt-get clean \
+	&& rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/ \
+	&& cd /webpage \
+	&& bundle install \
+	&& bundle update --bundler \
+	&& bundler install
+
+WORKDIR /webpage
+CMD ["bash"]
+

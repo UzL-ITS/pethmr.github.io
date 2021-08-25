@@ -1,0 +1,7 @@
+<ul class=actions>
+{% for hpage in site.html_pages %}
+ {% if hpage.dir == page.dir and hpage.nav-menu == true %}
+  <li><a href="{{ hpage.url }}" class='button fit small special'>{{ hpage.title }}</a></li>
+ {% endif %}
+{% endfor %}
+</ul>
