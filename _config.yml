@@ -34,4 +34,9 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+- build_docker.sh
+- generate.sh
+- serve.sh
+- start_docker.sh
+- Dockerfile
 
