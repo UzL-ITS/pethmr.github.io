@@ -39,15 +39,4 @@ git subtree push --prefix _site origin gh-pages
 
 ```
 
-In the container for rebuilding run:
-```
-bundle exec jekyll clean && bundle exec jekyll build
-```
-
-Use the Python internal web server to host the page for testing purposes
-
-```
-cd _site; python3 -m http.server
-```
-
-## Deployment
+For rebuilding stop the web server and run serve.sh again. (We could also use jekyll serve, it would watch for changes)
