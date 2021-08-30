@@ -5,8 +5,8 @@ This repository contains the Pet-HMR webpage.
 ## Development and usage
 
 Use a container to host Ruby modules that are needed to run the Jekyll build process.
-You must build the container on your machine. Thus user inside the container will have
-your users uid and gid and thus not add "foreign" files to your home dir, when mount the 
+You must build the container on your machine. This way, the user inside the container will have
+your user's uid and gid and will not add "foreign" files to your home dir, when mounting the host's 
 project folder into the container.
 
 ```
