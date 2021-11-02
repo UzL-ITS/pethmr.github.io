@@ -8,9 +8,9 @@ nav-menu: true
 
 The digital transformation is increasing the dependence of complex computer
 systems. Result of that interconnectedness is that systems are constantly
-exposed to possible attacks which probably cause large scale damages. To avaid
+exposed to possible attacks which probably cause large scale damages. To avoid
 this regular security testing, along with secure design paradigms and
-functional testing, is essential – but still not sufficent. In addition,
+functional testing, is essential – but still not sufficient. In addition,
 offensive testing methods like penetration testing help to find the last holes
 in your defense.
 
@@ -121,6 +121,7 @@ the honeypot can be dynamically changed to prevent attacks, allowing patches or
 fixes to be developed for real systems, the effectiveness of which will be
 tested in interaction with the APeT.
 
+
 ## Work package 1: Requirements analysis, research and selection of AI methods, evaluation criteria
 
 The work package analyzes the requirements for the penetration testing system
@@ -138,7 +139,7 @@ been formalized and algorithms for solving them have been designed, procedures
 will be realized as programs and software systems, respectively, in the further
 work packages 2 and 3.
 
-AP Lead: This work package is led by IFIS.
+WP Lead: This work package is led by IFIS.
 
 Result: Provision of modeling techniques as well as architectures and
 algorithms for WP 2 and 3; metrics for evaluating the results of vulnerability
@@ -151,8 +152,8 @@ technology. The honeypots will be used to collect data with the goal of finding
 out which external data streams belong to intrusions and what impact they have
 on the analyzed services and systems. The collection of data sets that allow
 correlating attack vectors with impacts is essential for the subsequent
-development of automated penetration tests (APs 3 and 4) and an automated patch
-creation (AP 5), as the data allows reproducing the attacks, identifying the
+development of automated penetration tests (WPs 3 and 4) and an automated patch
+creation (WP 5), as the data allows reproducing the attacks, identifying the
 vulnerable components and finding out why an attack is successful. Newly
 detected attacks are reported with information about the underlying
 vulnerabilities. Furthermore, an assessment can be made of what impact
@@ -170,9 +171,9 @@ are developed that combine the collected data and map the impact of an attack
 on a numerical value. In the technical implementation, a suitable framework and
 system components will be created to enable the aforementioned actions.
 
-AP Lead: This work package is led by X41 D-Sec GmbH.
+WP Lead: This work package is led by X41 D-Sec GmbH.
 
-Result: Honeypot with reporting function and interfaces for AP 4; first
+Result: Honeypot with reporting function and interfaces for WP 4; first
 functional evaluation of the honeypot.
 
 
@@ -207,7 +208,7 @@ For the automated processing and analysis of collected information, a
 corresponding data protection agreement and appropriate measures according to
 DSGVO will be taken.
 
-AP Lead: This work package is led by LHIND.
+WP Lead: This work package is led by LHIND.
 
 Result: Automated AI-based pentesting platform with reporting function in
 structured and natural language.
@@ -220,7 +221,7 @@ are developed so that both systems are improved through interaction and
 information exchange.
 
 This approach has been successfully applied in Adversarial Learning scenarios
-such as GANs21 to generate new results. Thus, the performance of the individual
+such as GANs to generate new results. Thus, the performance of the individual
 systems is significantly improved when two neural networks can train each
 other.
 
@@ -245,10 +246,10 @@ will also be modified to allow automated improvement of the AI platforms in
 APeT and SHoP. The system will be run in various real or virtual test scenarios
 and the success of the self-training will be evaluated. Possible newly found
 vulnerabilities, attack vectors, or exploits will be communicated through the
-interfaces developed in AP 2 and AP 3. Likewise, patch and fix generation
+interfaces developed in WP 2 and WP 3. Likewise, patch and fix generation
 information may be shared in interaction with WP 5.
 
-AP Lead: This work package is led by ITS.
+WP Lead: This work package is led by ITS.
 
 Result: System that enables autonomous further development of automatic
 pentration testing and honeypot; effectiveness analysis.
@@ -289,7 +290,7 @@ different strategies can be evaluated and optimized in terms of maintaining
 system performance and functionality. The patch and fix generation module will
 be supported by a supervised-learning strategy from human experts.
 
-AP Lead: This work package is led by X41 D-Sec GmbH.
+WP Lead: This work package is led by X41 D-Sec GmbH.
 
 Result: Patch generator
 
@@ -303,8 +304,7 @@ also be tested and evaluated for their applicability in commercially used
 systems. Furthermore, the capabilities of the system will be implemented beyond
 field studies through a demonstrator development.
 
-In the context of this demonstrator, as explained in the section "Topic and
-Objectives of the PeT-HMR Project", we focus on automated verification of (web)
+In the context of this demonstrator we focus on automated verification of (web)
 applications with REST interfaces in the HTTP(S) protocol. These already play a
 larger role in the market today and will most likely expand this share in the
 future. Microservice architectures with HTTP(S) interfaces are particularly
@@ -322,7 +322,7 @@ it initially contains initial functionalities and proofs-of-concept after WP
 6.1 and fully tests and represents the developed technologies at the end of WP
 6.3.
 
-AP Lead: This work package is led by NetUSE AG.
+WP Lead: This work package is led by NetUSE AG.
 
 Result: Evaluation results and their publication; demonstrator.
 
