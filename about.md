@@ -139,9 +139,9 @@ been formalized and algorithms for solving them have been designed, procedures
 will be realized as programs and software systems, respectively, in the further
 work packages 2 and 3.
 
-WP Lead: This work package is led by IFIS.
+**WP Lead:** This work package is led by IFIS.
 
-Result: Provision of modeling techniques as well as architectures and
+**Result:** Provision of modeling techniques as well as architectures and
 algorithms for WP 2 and 3; metrics for evaluating the results of vulnerability
 tests performed with the algorithms.
 
@@ -171,9 +171,9 @@ are developed that combine the collected data and map the impact of an attack
 on a numerical value. In the technical implementation, a suitable framework and
 system components will be created to enable the aforementioned actions.
 
-WP Lead: This work package is led by X41 D-Sec GmbH.
+**WP Lead:** This work package is led by X41 D-Sec GmbH.
 
-Result: Honeypot with reporting function and interfaces for WP 4; first
+**Result:** Honeypot with reporting function and interfaces for WP 4; first
 functional evaluation of the honeypot.
 
 
@@ -208,9 +208,9 @@ For the automated processing and analysis of collected information, a
 corresponding data protection agreement and appropriate measures according to
 DSGVO will be taken.
 
-WP Lead: This work package is led by LHIND.
+**WP Lead:** This work package is led by LHIND.
 
-Result: Automated AI-based pentesting platform with reporting function in
+**Result:** Automated AI-based pentesting platform with reporting function in
 structured and natural language.
 
 
@@ -249,9 +249,9 @@ vulnerabilities, attack vectors, or exploits will be communicated through the
 interfaces developed in WP 2 and WP 3. Likewise, patch and fix generation
 information may be shared in interaction with WP 5.
 
-WP Lead: This work package is led by ITS.
+**WP Lead:** This work package is led by ITS.
 
-Result: System that enables autonomous further development of automatic
+**Result:** System that enables autonomous further development of automatic
 pentration testing and honeypot; effectiveness analysis.
 
 ## Work package 5: Patch generation
@@ -290,9 +290,9 @@ different strategies can be evaluated and optimized in terms of maintaining
 system performance and functionality. The patch and fix generation module will
 be supported by a supervised-learning strategy from human experts.
 
-WP Lead: This work package is led by X41 D-Sec GmbH.
+**WP Lead:** This work package is led by X41 D-Sec GmbH.
 
-Result: Patch generator
+**Result:** Patch generator
 
 
 ## Work package 6: Evaluation and integration as well as demonstrator
@@ -322,7 +322,7 @@ it initially contains initial functionalities and proofs-of-concept after WP
 6.1 and fully tests and represents the developed technologies at the end of WP
 6.3.
 
-WP Lead: This work package is led by NetUSE AG.
+**WP Lead:** This work package is led by NetUSE AG.
 
-Result: Evaluation results and their publication; demonstrator.
+**Result:** Evaluation results and their publication; demonstrator.
 
