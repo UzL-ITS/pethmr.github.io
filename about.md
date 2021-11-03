@@ -50,7 +50,7 @@ honeypot trains with an automated pentest, have not yet been investigated.
 
 The aim of this project is to automate the penetration test process by using
 artificial intelligence to such an extent that widespread and cost-effective
-use is possible even with advancing digitalization. The developed system should
+use is possible even with advancing digitization. The developed system should
 improve itself and automatically integrate new vulnerabilities into the tests.
 By using context-based analysis techniques, the system can be effectively
 trained without the need for large training datasets. Once the automated
