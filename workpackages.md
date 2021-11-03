@@ -148,7 +148,7 @@ information may be shared in interaction with WP 5.
 **WP Lead:** This work package is led by ITS.
 
 **Result:** System that enables autonomous further development of automatic
-pentration testing and honeypot; effectiveness analysis.
+penetration testing and honeypot; effectiveness analysis.
 
 <a name=wp5></a>
 ## Work package 5: Patch generation
