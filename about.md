@@ -53,22 +53,11 @@ artificial intelligence to such an extent that widespread and cost-effective
 use is possible even with advancing digitization. The developed system should
 improve itself and automatically integrate new vulnerabilities into the tests.
 By using context-based analysis techniques, the system can be effectively
-trained without the need for large training datasets. Once the automated
+trained without the need for huge training datasets. Once the automated
 penetration tester has been trained, it can be largely automated and deployed
-without the need for personnel, enabling the continuous usage of penetration
-testing that constantly improves and keeps the security of the systems under
+without the need for personnel, thus enabling the continuous use of testing
+that constantly improves and keeps the security of the systems under
 examination up to date.
-
-The aim of this project is to automate penetration testing processes through
-the use of artificial intelligence to such an extent that widespread and
-cost-effective use is possible even with advancing digitization. The developed
-system should improve itself and automatically integrate new vulnerabilities
-into the tests. By using context-based analysis techniques, the system can be
-effectively trained without the need for huge training datasets. Once the
-automated penetration tester has been learned, it can be used in a largely
-automated manner without the need for personnel, thus enabling the continuous
-use of penetration tests, which consistently improves the security of systems
-under investigation and keeps it up to date.
 
 The goals of the PeT-HMR project are the following:
 
@@ -105,7 +94,7 @@ snapshots a few times a year as is often the case in traditional pentest
 environments.
 
 As a second component of the overall system, a smart honeypot system SHoP is
-being developed to observe and learn the behavior of new malware. The honeypot
+being developed to observe and learn the behavior of new attacks. The honeypot
 is adapted to the infrastructure of the system to be protected. In the SHoP,
 attacks can be observed and thus information about new attacks can be collected
 as well as conclusions about remaining system vulnerabilities can be detected.
