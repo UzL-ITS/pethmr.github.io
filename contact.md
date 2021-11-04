@@ -34,4 +34,10 @@ For general inquiries, please contact the project coordinator:
 	</div>
 </div>
 
-(TODO): partners contacts
+Partners contacts:
+<ul>
+<li><a target="_blank" href="https://www.its.uni-luebeck.de/kontakt/adresse.html">University of Lübeck, Institute of IT security (ITS)</a></li>
+<li><a target="_blank" href="https://www.ifis.uni-luebeck.de/index.php?id=impressum">University of Lübeck, Institute of Information Systems (IFIS)</a></li>
+<li><a target="_blank" href="https://www.lufthansa-industry-solutions.com/de-de/kontakt">Lufthansa Industry Solutions</a></li>
+<li><a target="_blank" href="https://www.netuse.de/kontakt/">NetUSE AG</a></li>
+</ul>
