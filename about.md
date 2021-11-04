@@ -105,10 +105,10 @@ improve the performance of the overall system. For example, new attack vectors
 discovered in the SHoP can be automatically adopted in the APeT. In addition,
 the APeT can analyze the vulnerabilities found and further improve them in
 interaction with the SHoP and analyze their applicability to other systems.
-Furthermore, the honeypot will be extended in such a way that the behavior of
-the honeypot can be dynamically changed to prevent attacks, allowing patches or
-fixes to be developed for real systems, the effectiveness of which will be
-tested in interaction with the APeT.
+Furthermore, the honeypot will be extended in such a way that the observed 
+attacker behavior will enable the detection of new attacks and producing patches
+or fixes for real systems. The effectiveness of which will be tested in 
+interaction with the APeT.
 
 ## Further information
 
