@@ -34,7 +34,7 @@ For general inquiries, please contact the project coordinator:
 	</div>
 </div>
 
-Partners contacts:
+<h3>Partners contacts</h3>
 <ul>
 <li><a target="_blank" href="https://www.its.uni-luebeck.de/kontakt/adresse.html">University of Lübeck, Institute of IT security (ITS)</a></li>
 <li><a target="_blank" href="https://www.ifis.uni-luebeck.de/index.php?id=impressum">University of Lübeck, Institute of Information Systems (IFIS)</a></li>
