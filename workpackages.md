@@ -18,7 +18,7 @@ PeT-HMR is divided in six work packages (WPs).
 ## Work package 1: Requirements analysis, research and selection of AI methods, evaluation criteria
 
 The work package analyzes the requirements for the penetration testing system
-APeT and the smart honeypot SHoP to be developed and derives evaluation
+APeT and the smart honeypot SHoP and derives evaluation
 criteria for the developed solutions. With the requirements identified, taking
 into account the rapidly changing state of the art, the AI approaches to be
 used for both systems are designed, e.g., simulation of adversarial agents in
