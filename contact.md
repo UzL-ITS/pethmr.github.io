@@ -4,7 +4,6 @@ title: Contact
 nav-menu: true
 ---
 
-The respective partners can be reached using the contact information on their websites&mdash;see below.
 
 For general inquiries, please contact the project coordinator:
 
@@ -20,8 +19,9 @@ For general inquiries, please contact the project coordinator:
 		<div class="col icon fa-envelope" style="width: 1px">
 		</div>
 		<div class=col>
-			<a href="mailto:info@x41-dsec.de">info@x41-dsec.de</a>
+			<a href="mailto:info(at)x41-dsec.de">info@x41-dsec.de</a>
 		</div>
+		<div class="col icon fa-envelope" style="width: 1px">
 	</div>
 	<div class=row style="margin-bottom: 20px">
 		<div class="col icon fa-map-marker" style="width: 1px">
@@ -35,9 +35,13 @@ For general inquiries, please contact the project coordinator:
 </div>
 
 <h3>Partners' contacts</h3>
+
+In the case you have specific questions about a component or deliverable of the PeT-HMR project, the respective partners can be reached also via a direct point of contact.
+
 <ul>
-<li><a target="_blank" href="https://www.its.uni-luebeck.de/kontakt/adresse.html">University of Lübeck, Institute of IT security (ITS)</a></li>
-<li><a target="_blank" href="https://www.ifis.uni-luebeck.de/index.php?id=impressum">University of Lübeck, Institute of Information Systems (IFIS)</a></li>
-<li><a target="_blank" href="https://www.lufthansa-industry-solutions.com/de-de/kontakt">Lufthansa Industry Solutions</a></li>
-<li><a target="_blank" href="https://www.netuse.de/kontakt/">NetUSE AG</a></li>
+<li><a href="mailto:thomas.eisenbarth(at)uni-luebeck.de">Prof. Dr.-Ing. Thomas Eisenbarth</a>, University of Lübeck, Institute of IT security (ITS)</li>
+<li><a href="mailto:moeller(at)uni-luebeck.de">Prof. Dr. rer. nat. habil. Ralf Möller</a>, University of Lübeck, Institute of Information Systems (IFIS)</li>
+<li><a href="maito:christian.garske(at)lhind.dlh.de;tim-patrick.sass(at)lhind.dlh.de">Christian Johann Garske and Tim Patrick Saß</a>, Lufthansa Industry Solutions</li>
+<li><a href="mailto:rk(at)netuse.de">Dr. Roland Kaltefleiter</a>, NetUSE AG</li>
+<li><a href="mailto:toni.grzinic(at)x41-dsec.de">Dr. Toni Grzinic</a>, X41 D-Sec GmbH</li>
 </ul>
