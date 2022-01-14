@@ -29,12 +29,6 @@ attack scenarios. After the problems behind APeT and SHoP have been formalized
 and algorithms for solving them have been designed, they will be implemented
 respectively in Work packages 2 and 3.
 
-**WP Lead:** This work package is led by IFIS.
-
-**Result:** Provision of modeling techniques as well as architectures and
-algorithms for WP 2 and 3; metrics and experiments for evaluating the results
-of vulnerability tests performed.
-
 <a name=wp2></a>
 
 ## Work package 2: Smart Honeypot and data collection (SHoP)
@@ -53,9 +47,6 @@ Newly detected attacks are reported with information about the underlying
 vulnerabilities which enables an detailed impact and root cause analysis
 in case of novel attacks.
 
-**WP Lead:** This work package is led by X41 D-Sec GmbH.
-
-**Result:** Honeypot with reporting function and interfaces for integration with APeT
 
 <a name=wp3></a>
 
@@ -67,10 +58,11 @@ to small and medium-sized enterprises, because it will offer a simpler and more
 accessible penetration test process that tries to minimize the involvement
 of penetration test experts.
 
-A clear goal of the work package is to redefine the limits of what is possible
-by machine. This is done, among other things, with self-learning components
-that use information from the SHoP module. This data augments APeT mechanisms to
-better understand the testing environment and the communication protocol.
+The goal of this work package is to redefine the current limits of
+automatization of penteration testing. This is done, among other things, with 
+self-learning components that use information from the SHoP module. 
+This data augments APeT mechanisms to better understand the testing environment 
+and the communication protocol.
 Today's tools, such as vulnerability scanners or specialized penetration testing
 tools rely on penetration testing experts that have to configure them properly
 depending on the specific application context, and then carefully check the
@@ -87,11 +79,6 @@ For the automated processing and analysis of collected information, a
 corresponding data protection agreement and appropriate measures according to
 DSGVO will be taken.
 
-**WP Lead:** This work package is led by LHIND.
-
-**Result:** Automated AI-based pentesting platform with reporting function in
-structured and natural language.
-
 <a name=wp4></a>
 
 ## Work package 4: Integration of APeT and SHoP
@@ -107,16 +94,14 @@ augments all data. Additionally, SHoP is able to recognize attack patterns and
 sequences and create abstracted attack definitions. Through interaction between
 APeT and SHoP, the honeypot system learns to better recognize attack patterns and
 provide this information to the penetration testing component. Hence APeT can
-adapt strategies to learn new attack patterns and minimize detectability of existing attack strategies. In the repetitive process, both systems become
+adapt strategies to learn new attack patterns and minimize detectability of 
+existing attack strategies. In the repetitive process, both systems become
 more effective in terms of optimized metrics.
 
 Newly found vulnerabilities, attack vectors, or exploits will be communicated
-through the interfaces developed in WP 2 and WP 3. Likewise, patch and fix generation information may be shared in interaction with WP 5.
+through the interfaces developed in WP 2 and WP 3. Likewise, patch and fix 
+generation information may be shared in interaction with WP 5.
 
-**WP Lead:** This work package is led by ITS.
-
-**Result:** System that enables autonomous further development of automatic
-penetration testing sceanrios and honeypot capabilities; effectiveness analysis.
 
 <a name=wp5></a>
 
@@ -129,7 +114,7 @@ a system to be protected.
 
 Patches and mitigations are technical or organizational measures to prevent 
 exploitation of a vulnerability that can be generated using data from SHoP
-and APeT or manually selected.
+and APeT or that can be manually selected.
 
 To select the right mitigation strategy, the system analyzes the recorded
 attacks and the results of APeT through a classification strategy. Different
@@ -150,10 +135,6 @@ different strategies can be evaluated and optimized in terms of maintaining
 system performance and functionality. The patch and fix generation module will
 be supported by a supervised-learning strategy from human experts.
 
-**WP Lead:** This work package is led by X41 D-Sec GmbH.
-
-**Result:** Patch generator
-
 <a name=wp6></a>
 
 ## Work package 6: Evaluation and demonstrator
@@ -173,11 +154,3 @@ relevant for SMEs, as lean microservice architectures offer higher efficiency,
 harmonize very well with cloud architectures and can be operated
 cost-effectively in cloud infrastructures.
 
-The goal is to build the demonstrator in stages, so that the initial demonstrator
-contains initial functionalities and proofs-of-concept of each component and in the last
-stage presents functional tests and results on the integrated system containing all
-components (APeT, SHoP, Patch generation) developed during the project.
-
-**WP Lead:** This work package is led by NetUSE AG.
-
-**Result:** Evaluation results and their publication; demonstrator for each component.
