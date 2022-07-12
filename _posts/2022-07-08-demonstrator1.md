@@ -21,9 +21,9 @@ and data collection, and their subsystem for attack detection that act as
 a framework for SHoP (smart honeypot system). 
 ShoP is a able to collect system-level details about the interactions 
 with the honeypot and enrich existing data. 
-- LHIND presented their ML model from detecting attacks from honeypot data 
-and their architecture for a modular APet system; a tool for conducting 
-penetration tests using various open-source and commercial tools. 
+- LHIND presented their Machine Learning model for detecting anomalous HTTP
+requests from honeypot data and an architecture for a modular APet system; 
+a tool for conducting penetration tests using various open-source and commercial tools. 
 - ITS presented their penetration testing system for finding vulnerabilities 
 for Java applications based on guided fuzzing methods and symbolic execution. 
 - IFIS presented ideas for finding vulnerabilities in source code using 
@@ -33,10 +33,9 @@ year and trends that are worth addressing during the project.
 
 The first Demonstrator was concluded with a fruitful discussion about the future
 of the project and upcoming tasks. In the next period the focus of the project
-is integrating the SHOP system with APet, and improving of methods 
+is integrating the SHOP system with APet, and improvment of methods 
 for finding web and API vulnerabilities.   
 
- 
 
 As the demonstrator was still conducted via online channels, you can find a few screenshots from the presentations.  
 {% include image-gallery.html folder="/assets/images/demo1" %}

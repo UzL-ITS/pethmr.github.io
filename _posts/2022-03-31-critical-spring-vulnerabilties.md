@@ -13,8 +13,8 @@ a popular Java MVC framework that supports inversion of control and fast buildin
 The vulnerabilities that were found caused a lot of turmoil in the information
 security community due to a similar bug in the Java library Log4J (CVE-2021-44228). 
 CVE-2021-44228 was found in December 2021 and has affected a lot of critical systems. 
-The new vulnerabilities are serious and high impact due to their capabilities, 
-ease of use and usage of the Spring framework in bigger enterprises. 
+New vulnerabilities are serious and have a high impact due to their capabilities, 
+ease of use and widespread of the Spring framework. 
 
 The vulnerabilities in question are the following:
 1. CVE-2022-22965 Spring4Shell
