@@ -1,9 +1,14 @@
 ---
-layout: allposts
-title: News
+title: Pet-HMR News
+layout: post
 nav-menu: true
-show_tile: false
+permalink: /news.html
 ---
 
-<h1>PeT-HMR Project News</h1>
-
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
