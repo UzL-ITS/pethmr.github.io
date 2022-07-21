@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>Presentations | PeT-HMR</title>
+	<title>Critical vulnerabilities for Spring and Spring Cloud function (aka Springshell) found on Pet-HMR honeypots | PeT-HMR</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -100,13 +100,34 @@
 <section>
 	<div class="inner">
 		<header class="major">
-			<h1>Presentations</h1>
+			<h1>Critical vulnerabilities for Spring and Spring Cloud function (aka Springshell) found on Pet-HMR honeypots</h1>
 		</header>
 		
-		<section>
-presentations go here
-</section>
+		<p>During the period from March 29th to 31st multiple vulnerabilities related to Spring,
+a popular Java MVC framework that supports inversion of control and fast building of applications emerged.</p>
 
+<p>The vulnerabilities that were found caused a lot of turmoil in the information
+security community due to a similar bug in the Java library Log4J (CVE-2021-44228). 
+CVE-2021-44228 was found in December 2021 and has affected a lot of critical systems. 
+New vulnerabilities are serious and have a high impact due to their capabilities, 
+ease of use and widespread of the Spring framework.</p>
+
+<p>The vulnerabilities in question are the following:</p>
+<ol>
+  <li>CVE-2022-22965 Spring4Shell</li>
+  <li>CVE-2022-22963 Spring Cloud Function</li>
+  <li>Unconfirmed RCE via deserialization (Spring Core &lt;=5.3.17)</li>
+</ol>
+
+<p>On 28th March 2022 around 22:46GMT on Pet-HMR honeypots we have caught requests 
+that tried to enumerate Spring Cloud Function vulnerability. 
+The scans had been performed from SELECTEL from Russia. 
+The attacker tried to enumerate multiple popular vulnerabilities from the 
+previous years (CVE-2021-42013, CVE-2021-41773, CVE-2018-1000861, CVE-2021-3129, 
+CVE-2021-44832, CVE-2021-2109 and more), besides the above-mentioned Spring
+Cloud Function vulnerability.</p>
+
+<p>More details on <a href="https://x41-dsec.de/pethmr/springshell/">X41 blogpost</a></p>
 
 	</div>
 </section>
