@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>Presentations | PeT-HMR</title>
+	<title>Critical vulnerability in Log4j library – Log4Shell (CVE-2021-44228) | PeT-HMR</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -100,13 +100,27 @@
 <section>
 	<div class="inner">
 		<header class="major">
-			<h1>Presentations</h1>
+			<h1>Critical vulnerability in Log4j library – Log4Shell (CVE-2021-44228)</h1>
 		</header>
 		
-		<section>
-presentations go here
-</section>
+		<p>A recent zero-day exploit in the popular Java logging library Apache Log4j2
+exposes millions of systems to trivial remote code execution attacks. The
+vulnerability also known as Log4Shell <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228">(CVE-2021-44228)</a> has been first
+publicly disclosed on December 9th, 2021. Starting with December 10th we found 
+dozens of enumeration and attack attempts  on deployed Pet-HMR honeypots, 
+that included a lot of variations and evasion techniques from current fixes and security tools.</p>
 
+<p>The vulnerability affects all Log4j2 versions until 2.14.1 and has been classified
+as extremely critical by the German Federal Office for Information Security
+(Bundesamt für Sicherheit in der Informationstechnik, <a href="https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2021/2021-549177-1032.pdf">BSI</a>).
+The most important factors are that the library is extremely widespread, 
+and that the vulnerability is very easy to exploit since it only requires 
+to trigger a log message containing certain strings. 
+Injecting such strings into log messages is easy because logs 
+typically contain information provided by a client (e.g HTTP request headers),
+that if not parsed correctly can become a big security threat.</p>
+
+<p>More details on <a href="https://x41-dsec.de/pethmr/log4shell/">X41 blogpost</a></p>
 
 	</div>
 </section>
