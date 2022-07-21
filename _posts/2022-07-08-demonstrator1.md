@@ -25,7 +25,7 @@ with the honeypot and enrich existing data.
 requests from honeypot data and an architecture for a modular APet system; 
 a tool for conducting penetration tests using various open-source and commercial tools. 
 - ITS presented their penetration testing system for finding vulnerabilities 
-for Java applications based on guided fuzzing methods and symbolic execution. 
+for Java applications based on guided fuzzing methods. 
 - IFIS presented ideas for finding vulnerabilities in source code using 
 Machine Learning methods and for guiding penetration tests using Imitation Learning.  
 - Netuse delivered experiences on security problems they encountered in the last
