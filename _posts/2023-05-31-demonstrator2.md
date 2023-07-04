@@ -63,6 +63,7 @@ As the demonstrator was held in X41's headquarters, you can find a few pictures 
 
  <!---
  ![image1](/assets/images/demo2/demo2-scr1.jpeg){:height="50%" width="50%"}
+ ![image2](/assets/images/demo2/demo2-scr2.jpeg){:height="50%" width="50%"}
  --->
 
 
