@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Pet-HMR Demonstrator 2
@@ -58,6 +57,14 @@ Besides leading to better prediction performance, the techniques from IFIS have 
 In the next phase of the Pet-HMR project, partners will focus on work package 5 whose purpose is to generate patches and blocking mechanisms to stop attacks. On one hand, X41 will focus on the network blocking part, while ITS who has already worked on source code analysis will focus on patching on the source code level. On the other hand, ITS, IFIS and LHIND will continue improving their systems – LHIND will continue the development of their AI offensive engine – as well as designing and performing new tests to benchmark their abilities.  
 
 As has been shown during these two days, ML and AI methods have a lot potential when it comes to detecting new attacks and beating state of the art technologies, the goal is to keep improving these models but also to keep an eye and test new large language models possibilities. Future plans consist of mutually using these ML models, such as the anomaly detection model from LHIND and ML model from X41 to improve their counterparts and integrate them in the whole PeT-HMR workflow. These advances represent a great step forward when it comes to early detection and virtually patching new vulnerabilities of previously unseen attack patterns. 
+
+As the demonstrator was held in X41's headquarters, you can find a few pictures from the presentations.
+ {% include image-gallery.html folder="/assets/images/demo2" %}
+
+ <!---
+ ![image1](/assets/images/demo2/demo2-scr1.jpeg){:height="50%" width="50%"}
+ --->
+
 
 # References 
 
