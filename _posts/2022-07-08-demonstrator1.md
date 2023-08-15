@@ -45,4 +45,5 @@ As the demonstrator was still conducted via online channels, you can find a few 
 ![image2](/assets/images/demo1/demo1-scr2.png){:height="50%" width="50%"}
 ![image3](/assets/images/demo1/demo1-scr3.png){:height="50%" width="50%"}
 ![image4](/assets/images/demo1/demo1-scr4.png){:height="50%" width="50%"}
+![image5](/assets/images/demo1/demo1-scr5.png){:height="50%" width="50%"}
 --->
