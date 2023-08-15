@@ -63,8 +63,8 @@ As the demonstrator was held in X41's headquarters, you can find a few pictures 
  {% include image-gallery.html folder="/assets/images/demo2" %}
 
  <!---
- ![image1](/assets/images/demo2/demo2-scr1.jpeg){:height="50%" width="50%"}
- ![image2](/assets/images/demo2/demo2-scr2.jpeg){:height="50%" width="50%"}
+ ![image1](https://images.weserv.nl/?url=http://pethmr.de/assets/images/demo2/demo2-src1.jpeg&w=300&h=300&output=jpg&q=50&t=square.html){:height="50%" width="50%"}
+ ![image2](https://images.weserv.nl/?url=http://pethmr.de/assets/images/demo2/demo2-src2.jpeg&w=300&h=300&output=jpg&q=50&t=square.html){:height="50%" width="50%"}
  --->
 
 

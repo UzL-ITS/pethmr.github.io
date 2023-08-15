@@ -6,6 +6,8 @@ email: info@x41-dsec.de
 baseurl: "/" # the subpath of your site, e.g. /blog
 author:
 
+url: https://pethmr.de
+
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
